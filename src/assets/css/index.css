@@ -1,0 +1,53 @@
+@import url('pagination.css');
+@import url('user-table.css');
+@import url('create-form.css');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --text-color: #242424;
+  --background-color: #ffffff;
+  --button-color: teal;
+  --button-hover-color: #05aeae;
+  --table-row-color: #ffffff;
+  --table-row-shadow-color: rgba(0, 0, 0, 0.1);
+  --modal-shadow-color: rgba(160, 160, 160, 0.3);
+  --modal-background-color: rgb(250, 250, 250);
+  --pagination-active-color: var(--button-color);
+  --pagination-border-color: var(--button-color);
+  --pagination-hover-color: rgb(212, 235, 235);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.pagination-content {
+  margin-top: 15px;
+}
+
+.user-list {
+  margin-top: 15px;
+}

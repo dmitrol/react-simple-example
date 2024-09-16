@@ -1,0 +1,18 @@
+.create-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-form .title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--button-color);
+}
+
+.create-form .row {
+  margin-top: 5px;
+}
+
+.create-form .submit {
+  margin-top: 10px;
+}

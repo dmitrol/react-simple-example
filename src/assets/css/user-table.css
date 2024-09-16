@@ -1,0 +1,93 @@
+.table-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.table .table-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  background-color: var(--button-color);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: 3px;
+}
+
+.table .table-row {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  background-color: var(--table-row-color);
+  box-shadow: 0px 0px 9px 0px var(--table-row-shadow-color);
+  border-radius: 3px;
+}
+
+.table .table-row .name,
+.table .table-header .name {
+  flex-basis: 50%;
+  display: flex;
+}
+.table .table-row .surname,
+.table .table-header .surname {
+  flex-basis: 50%;
+  display: flex;
+}
+.table .table-row .age,
+.table .table-header .age {
+  width: 80px;
+  display: flex;
+}
+.table .table-row .actions,
+.table .table-header .actions {
+  width: 150px;
+  display: flex;
+}
+.table .table-header .name {
+  cursor: pointer;
+  transition: all 200ms;
+}
+.table .table-header .surname {
+  cursor: pointer;
+  transition: all 200ms;
+}
+.table .table-header .age {
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.table .table-row .actions button + button {
+  margin-left: 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.icon.icon-asc {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(180deg);
+}
+.icon.icon-desc {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  max-width: 12px;
+  max-height: 12px;
+}

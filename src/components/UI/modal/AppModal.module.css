@@ -1,0 +1,21 @@
+.appModal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  background: var(--modal-shadow-color);
+}
+.appModalContent {
+  padding: 24px;
+  background: var(--modal-background-color);
+  border-radius: 16px;
+  min-width: 250px;
+}
+
+.appModal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

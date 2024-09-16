@@ -1,0 +1,23 @@
+.pagination-wrapper {
+  display: flex;
+}
+
+.pagination-wrapper .pagination-item {
+  padding: 3px 8px;
+  border: 1px solid var(--pagination-border-color);
+  transition: all 200ms;
+  cursor: pointer;
+}
+
+.pagination-wrapper .pagination-item:hover {
+  background: var(--pagination-hover-color);
+}
+
+.pagination-wrapper .pagination-item.active {
+  padding: 3px 8px;
+  background: var(--pagination-active-color);
+}
+
+.pagination-wrapper .pagination-item + .pagination-item {
+  margin-left: 8px;
+}
